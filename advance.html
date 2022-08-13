@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>May tinh nang cao</title>
+</head>
+<style>
+    body {
+        width: 250px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    table, td, tr{
+        width: 100%;
+        border: 2px black solid;
+    }
+    button{
+        width: 20%;
+        height: 20%;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <th colspan="4">CASIO FX 570</th>
+    </tr>
+    <tr>
+        <th><input id="display" style="width: 97%"><br></th>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="so(1)">1</button>
+            <button onclick="so(2)">2</button>
+            <button onclick="so(3)">3</button>
+            <button onclick="so('+')">+</button>
+        </td>
+    </tr>
+
+    <tr><td>
+        <button onclick="so(4)">4</button>
+        <button onclick="so(5)">5</button>
+        <button onclick="so(6)">6</button>
+        <button onclick="so('-')">-</button>
+    </td>
+    </tr>
+
+    <tr><td>
+        <button onclick="so(7)">7</button>
+        <button onclick="so(8)">8</button>
+        <button onclick="so(9)">9</button>
+        <button onclick="so('*')">*</button>
+    </td>
+    </tr>
+
+    <tr><td>
+        <button onclick="xoa()">AC</button>
+        <button onclick="so(0)">0</button>
+        <button onclick="ketQua()">=</button>
+        <button onclick="so('/')">/</button>
+    </td></tr>
+
+</table>
+
+</body>
+</html>
+
+<script src="calculator.js"></script>
+
